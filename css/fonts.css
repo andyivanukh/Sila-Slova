@@ -1,0 +1,16 @@
+
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+	src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+			 url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Exo ExtraBold";
+	src: url("../fonts/Exo/Exo-ExtraBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
