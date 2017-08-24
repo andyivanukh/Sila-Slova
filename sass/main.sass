@@ -85,6 +85,7 @@ a:focus
 	letter-spacing: 1px
 
 .menu__item
+	position: relative
 	display: inline-block
 
 .navigation
@@ -96,16 +97,19 @@ a:focus
 	font-size: 16px
 	line-height: 37px
 	border-radius: 4px
-	
 
-.menu__sitem::before
+.menu__item::before
+	position: absolute
+	top: 11px
+	right: 5px
+	left: 2px
 	content: ''
 	display: inline-block
 	height: 17px
 	width: 1px
 	background-color: $mainColor
 
-
-.menu__item a:hover
+.menu__item a:hover,
+.menu__item_active a
 	color: #fff
 	background-color: $mainColor
