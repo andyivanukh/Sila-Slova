@@ -1,0 +1,115 @@
+﻿$mainColor: #3B5998
+
+html
+	height: 100%
+
+body
+    height: 100%
+    font: 14px Arial, Tahoma, sans-serif
+    color: $mainColor
+    background-color: #fff
+    min-width: 320px
+
+ol, ul 
+	list-style-type: none
+
+* 
+	margin: 0 
+	padding: 0
+	outline: none
+	-webkit-box-sizing: border-box
+	   -moz-box-sizing: border-box
+	        box-sizing: border-box
+
+a, a:hover 
+	color: $mainColor
+	text-decoration: none
+
+a:focus
+	outline: none;
+
+.clearfix:after,
+.clearfix:before
+	content: " "
+	display: table
+
+.clearfix:after
+	clear: both
+
+.left 
+	float: left 
+
+.right	
+ 	float: right
+
+.text-left
+	text-align: left
+
+.text-right
+	text-align: right
+
+.container
+	width: 97%
+	max-width: 1024px
+	margin: 0 auto
+
+/*HEADER*/
+.header
+	min-height: 700px
+
+.top-panel
+	height: 88px
+	background: url(../img/nav-bg.jpg) no-repeat
+	.logo
+		position: relative
+		width: 235px
+		margin: 17px 0
+
+.name, .descr
+	position: absolute
+
+.name
+	right: 5px
+	top: 8px
+	font-family: "OpenSansBold", sans-serif
+	font-size: 21px
+	line-height: 21px
+	color: #1A2755
+	letter-spacing: 2px
+
+.descr
+	right: 8px
+	top: 30px
+	font-family: "OpenSansRegular", sans-serif
+	color: #686E86
+	letter-spacing: 1px
+
+.menu__item
+	position: relative
+	display: inline-block
+
+.navigation
+	margin: 27px 0 25px 0
+
+.menu__item a
+	padding: 11px 17px 11px 20px
+	font-family: "OpenSansRegular", sans-serif
+	font-size: 16px
+	line-height: 37px
+	border-radius: 4px
+
+.menu__item::before
+	position: absolute
+	top: 11px
+	right: 5px
+	left: 2px
+	content: ''
+	display: inline-block
+	height: 17px
+	width: 1px
+	background-color: $mainColor
+
+.menu__item a:hover,
+.menu__item_active a
+	color: #fff
+	background-color: $mainColor
