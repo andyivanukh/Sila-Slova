@@ -8,7 +8,43 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.menu{
+		display: none;
+		position: absolute;
+		background: #fff;
+		top:90px;
+		left:5%;
+		right:5%;
+		text-align: center;
 		
+	}
+	.menu__item{
+		display: block;
+		
+	}
+	.menu__item a{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.menu__item:hover{
+
+	}
+	.menu__item_active a{
+		color: #3B5998;
+		background-color: transparent;
+	}
+	.menu__item a:hover{
+		
+	}
+	.menu__item::before{
+		display: none;
+	}
+	i.fa-bars{
+		display: block;
+	}
+	.menu_icon{
+		display: block;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -47,7 +83,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+	.menu{
+		display:block!important;
+		
+	}
 }
 
 /* Large Devices, Wide Screens */
