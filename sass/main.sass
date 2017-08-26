@@ -113,3 +113,145 @@ a:focus
 .menu__item_active a
 	color: #fff
 	background-color: $mainColor
+
+.menu_icon
+	position: relative
+	display: none
+	width: 40px
+	height: 40px
+	cursor: pointer
+	background-color: transparent
+
+.menu-global 
+	backface-visibility: hidden
+	position: absolute
+	left: 0
+	border-top: 5px solid #3B5998
+	width: 100%
+	transition: 0.55s
+
+.menu-top 
+  	top: 5px
+
+.menu-middle 
+  	top: 18px
+
+.menu-bottom 
+  	top: 30px
+
+.menu-top-click 
+	backface-visibility: hidden
+	top: 15px
+	transform: rotate(50deg)
+	transition: 0.55s 0.5s
+
+.menu-middle-click 
+  	opacity: 0
+
+.menu-bottom-click 
+    backface-visibility: hidden
+    transition: 0.55s 0.5s
+    top: 15px
+    transform: rotate(-410deg)
+   
+.main-header
+	min-height: 619px
+	//background: url(../img/header-bg.jpg) no-repeat -280px 0
+
+.header-content
+	padding-top: 235px
+	text-transform: uppercase
+	text-align: center
+	span
+		font-family: "GostARegular", sans-serif
+		font-size: 50px
+		color: #3F5D9A
+		font-weight: bold
+		.red_color
+			color: #FF4747
+
+span.price
+	color: #FF4747
+
+span.time
+	font-size: 30px
+	text-transform: lowercase
+	vertical-align: 7px
+
+span.cource-name
+	position: relative
+	padding: 20px 55px
+	margin: 0 auto
+	max-width: 675px
+	display: block
+	background: #F2F2F2
+	border-radius: 7px
+	margin-bottom: 15px
+
+span.cource-name:hover 
+	cursor: pointer
+
+span.cource-name:hover.cource-name::before,
+span.cource-name:hover.cource-name::after
+	display: inline-block
+
+span.cource-name::before
+	position: absolute
+	top: 5px
+	left: -85px
+	content: ''
+	display: none
+	width: 70px
+	height: 52px
+	background: url(../img/arrow-down-left.png) no-repeat
+
+span.cource-name::after
+	position: absolute
+	top: 7px
+	right: -87px
+	content: ''
+	display: none
+	width: 70px
+	height: 52px
+	background: url(../img/arrow-down-right.png) no-repeat
+
+.cource-details
+	margin: 0 auto
+	max-width: 880px
+	background: #F2F2F2
+	border-radius: 7px
+	margin-bottom: 45px
+	span
+		display: inline-block
+		padding: 20px 28px
+		border-right: 1px solid #7F92BA
+		&:last-child
+			border-right: none
+
+.registr-btn
+	position: relative
+	padding: 15px 60px
+	font-family: "OpenSansRegular", sans-serif
+	font-size: 18px
+	color: #FFEDED
+	background: #FF4747
+	border: 2px solid #fff
+	border-radius: 10px
+	transition: box-shadow .5s ease-out
+	&::before, &::after
+		position: absolute
+		top: -20px
+		content: ''
+		display: inline-block
+		width: 70px
+		height: 52px
+	&::before
+		background: url(../img/arrow-up-left.png) no-repeat
+		left: -121px
+	&::after
+		right: -121px
+		background: url(../img/arrow-up-right.png) no-repeat
+
+.registr-btn:hover
+	cursor: pointer
+	box-shadow: inset 0 0 10px #3F5D9A
