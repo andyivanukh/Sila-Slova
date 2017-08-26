@@ -116,8 +116,12 @@
 			font-weight: normal;
 	}
 
-	i.fa-bars
-		display: none
-		font-size: 30px
-		line-height: 32px
-		font-weight: bold
+@font-face {
+			font-family: "GostARegular";
+			src: url("../fonts/GostARegular/GostARegular.eot");
+			src: url("../fonts/GostARegular/GostARegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GostARegular/GostARegular.woff") format("woff"),
+			url("../fonts/GostARegular/GostARegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

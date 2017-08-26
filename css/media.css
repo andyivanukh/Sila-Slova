@@ -11,11 +11,13 @@
 	.menu{
 		display: none;
 		position: absolute;
-		background: #fff;
+		background: rgba(255, 255, 255, .8);
 		top:90px;
 		left:5%;
 		right:5%;
 		text-align: center;
+		border-radius: 5px;
+		z-index: 9;
 		
 	}
 	.menu__item{
@@ -26,39 +28,66 @@
 		text-transform: uppercase;
 		font-weight: bold;
 	}
-	.menu__item:hover{
-
-	}
 	.menu__item_active a{
 		color: #3B5998;
 		background-color: transparent;
 	}
-	.menu__item a:hover{
-		
-	}
 	.menu__item::before{
 		display: none;
 	}
-	i.fa-bars{
-		display: block;
-	}
 	.menu_icon{
 		display: block;
+	}
+	.cource-details span{
+		padding: 10px 18px;
+	}
+	.header-content span {
+		font-size: 35px;
+	}
+	span.time{
+		font-size: 25px;
+		vertical-align: 5px;
 	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-		
+	span.time{
+		text-decoration: underline;
+	}
+	.registr-btn::before, .registr-btn::after {
+		display: none;
+	}
+	span.cource-name:hover.cource-name::before,
+	span.cource-name:hover.cource-name::after {
+  		display: none; 
+  	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-		
+	.header-content span {
+		font-size: 25px;
+	}
+	span.time{
+		font-size: 20px;
+		vertical-align: 4px;
+	}
+	.cource-details span{
+		padding: 7px 12px;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-		
+	.header-content{
+		padding-top: 210px;
+	}
+	.registr-btn{
+		font-size: 17px;
+	}
+	.cource-details span{
+		padding: 7px 10px;
+	}
 		
 		
 }
