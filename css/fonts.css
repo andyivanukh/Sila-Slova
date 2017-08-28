@@ -125,3 +125,13 @@
 			font-style: normal;
 			font-weight: normal;
 	}
+
+@font-face {
+			font-family: "GostBStandard";
+			src: url("../fonts/GostBStandard/GostBStandard.eot");
+			src: url("../fonts/GostBStandard/GostBStandard.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GostBStandard/GostBStandard.woff") format("woff"),
+			url("../fonts/GostBStandard/GostBStandard.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
