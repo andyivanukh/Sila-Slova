@@ -75,6 +75,12 @@
 	.cource-details span{
 		padding: 7px 12px;
 	}
+	.study_txt_main{
+		font-size: 17px;
+	}
+	.study_txt_sub{
+		font-size: 14px;
+	}
 }
 
 /* Custom, iPhone Retina */

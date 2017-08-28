@@ -271,23 +271,30 @@ section.what_study
 	text-transform: uppercase
 	z-index: 999
 
-.what_study_left
-	margin-left: 55px
-	width: 41%
-	background: #fff
-	z-index: 999
+.what_study__wrap
+	max-width: 784px
+	margin: 0 auto
 
-.what_study_right
-	margin-left: 55px
-	width: 41%
-	background: #fff
+.what_study_left, .what_study_right
+	max-width: 450px
 	z-index: 999
 
 .what_study__item
-	padding: 20px 25px
+	padding: 20px 0
 
 .study_img
-	margin-right: 5%
+	margin-right: 13px
 
-.study_txt_main
-	display: block
+.study_txt
+	position: relative
+	top: -5px
+	text-align: left
+	&_main
+		display: block
+		font-family: "GostBStandard", sans-serif
+		font-size: 20px
+		text-transform: uppercase
+	&_sub
+		font-family: "OpenSansRegular", sans-serif
+		font-size: 17px
+	
