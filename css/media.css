@@ -81,6 +81,11 @@
 	.study_txt_sub{
 		font-size: 14px;
 	}
+	.value_txt{
+		top:5px;
+		font-size: 14px;
+		letter-spacing: -1px;
+	}
 }
 
 /* Custom, iPhone Retina */

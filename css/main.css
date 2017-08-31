@@ -182,7 +182,8 @@ a:focus {
       color: #FF4747; }
 
 span.price {
-  color: #FF4747; }
+  color: #FF4747;
+  text-transform: lowercase; }
 
 span.time {
   font-size: 30px;
@@ -256,19 +257,22 @@ span.cource-name::after {
   -o-transition: box-shadow .5s ease-out;
   transition: box-shadow .5s ease-out;
   transition: box-shadow .5s ease-out, -webkit-box-shadow .5s ease-out; }
-  .registr-btn::before, .registr-btn::after {
-    position: absolute;
-    top: -20px;
-    content: '';
-    display: inline-block;
-    width: 70px;
-    height: 52px; }
-  .registr-btn::before {
-    background: url(../img/arrow-up-left.png) no-repeat;
-    left: -121px; }
-  .registr-btn::after {
-    right: -121px;
-    background: url(../img/arrow-up-right.png) no-repeat; }
+
+.arr-btn::before, .arr-btn::after {
+  position: absolute;
+  top: -20px;
+  content: '';
+  display: inline-block;
+  width: 70px;
+  height: 52px; }
+
+.arr-btn::before {
+  background: url(../img/arrow-up-left.png) no-repeat;
+  left: -121px; }
+
+.arr-btn::after {
+  right: -121px;
+  background: url(../img/arrow-up-right.png) no-repeat; }
 
 .registr-btn:hover {
   cursor: pointer;
@@ -278,7 +282,8 @@ span.cource-name::after {
 /*WHAT YOU STADY SECTION*/
 section.what_study {
   min-height: 576px;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 1px solid #A6B4D0; }
 
 .section_title {
   display: block;
@@ -291,13 +296,16 @@ section.what_study {
 
 .what_study__wrap {
   max-width: 784px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 33px; }
 
-.what_study_left, .what_study_right {
+.what_study_left, .what_study_right,
+.what_value_left, .what_value_right {
   max-width: 450px;
   z-index: 999; }
 
-.what_study__item {
+.what_study__item,
+.what_value__item {
   padding: 20px 0; }
 
 .study_img {
@@ -315,3 +323,28 @@ section.what_study {
   .study_txt_sub {
     font-family: "OpenSansRegular", sans-serif;
     font-size: 17px; }
+
+.what_study_btn {
+  margin-bottom: 77px; }
+
+/*WHAT VALUE SECTION*/
+section.what_value {
+  min-height: 612px;
+  background: #fff;
+  text-align: center;
+  border-bottom: 1px solid #A6B4D0; }
+
+.what_value__wrap {
+  max-width: 820px;
+  margin: 0 auto;
+  margin-bottom: 43px; }
+
+.value_txt {
+  position: relative;
+  top: -1px;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 17px;
+  text-align: left; }
+
+.value_img {
+  margin-right: 16px; }
