@@ -34,4 +34,30 @@ $(document).ready(function(){
 		};
 
 	Menu.init();
+
+	$('.sl').slick({
+      slidesToShow:4,
+      arrows:true,
+      infinite:false,
+      responsive: [
+      	  {
+            breakpoint: 1124,
+            settings:{
+              slidesToShow:3
+            }
+          },
+          {
+            breakpoint: 800,
+            settings:{
+              slidesToShow:2
+            }
+          },
+          {
+            breakpoint: 570,
+            settings:{
+              slidesToShow:1
+            }
+          }
+      ]
+  });
 })

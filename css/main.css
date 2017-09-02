@@ -348,3 +348,35 @@ section.what_value {
 
 .value_img {
   margin-right: 16px; }
+
+.what_value-btn {
+  margin-bottom: 63px; }
+
+/* FOR WHOM SECTION*/
+section.for_whom {
+  min-height: 657px;
+  background: url(../img/for_whom-bg.jpg) no-repeat center;
+  text-align: center;
+  border-bottom: 1px solid #A6B4D0; }
+
+.slider_wrap {
+  margin-top: 17px; }
+
+.sl-slide img {
+  margin: 0 auto 15px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+
+.sl-slide .slide_txt {
+  display: block;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 18px;
+  color: #1f201f; }
+
+.sl-slide:after {
+  content: '';
+  display: block;
+  margin: 15px auto 45px;
+  width: 80px;
+  height: 3px;
+  background: #3B5998; }
