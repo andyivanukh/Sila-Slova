@@ -10,6 +10,19 @@
 		{
 		    right: -5px !important;
 		}
+	.schedule-img{
+		position: static;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.schedule__item{
+		width: 97%;
+	}
+	.schedule__item:after{
+		position: static;
+		margin: 5px auto;
+	}
 		
 
 }
@@ -56,6 +69,13 @@
 		font-size: 25px;
 		vertical-align: 5px;
 	}
+	.about_schedule_title::before,
+	.about_schedule_title::after{
+		display: none;
+	}
+	.liedetector__price{
+		font-size: 40px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -69,6 +89,10 @@
 	span.cource-name:hover.cource-name::before,
 	span.cource-name:hover.cource-name::after {
   		display: none; 
+  	}
+  	.about_content__txt{
+  		font-size: 16px;
+  		line-height: 20px;
   	}
 }
 /* Extra Small Devices, Phones */
@@ -94,6 +118,24 @@
 		font-size: 14px;
 		letter-spacing: -1px;
 	}
+	.about_content__item {
+    	width: 25%;
+   		margin: 0 12% 30px 12%;
+    }
+    .schedule-img{
+    	max-width: 95%;
+    }
+    .schedule__item{
+    	height: 300px;
+    }
+    .liedetector img{
+    	margin-left: 0;
+    	margin-bottom: 20px;
+    }
+    .about_content__txt{
+    	font-size: 14px;
+    	line-height: 18px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -107,6 +149,17 @@
 	.cource-details span{
 		padding: 7px 10px;
 	}
+	.about_content__txt {
+    	font-size: 13px;
+    	line-height: 16px;
+	}
+	.section_title{
+		font-size: 32px;
+	}
+	.schedule__item{
+		height: 240px;
+	}
+
 		
 		
 }
