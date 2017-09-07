@@ -371,6 +371,7 @@ section.about_course
 	min-height: 1900px
 	background: #fff
 	text-align: center
+	padding-bottom: 80px
 	border-bottom: 1px solid #A6B4D0
 
 .about_content__item
@@ -383,7 +384,7 @@ section.about_course
 .about_content__img
 	display: block
 	margin: 0 auto 15px
-	width: 100%
+	width: 97%
 
 .about_content__txt
 	font-family: "OpenSansBold", sans-serif
@@ -452,4 +453,127 @@ section.about_course
 		color: #FF4747
 	
 
+/*FEEDBACK SECTION*/
+section.feedback
+	min-height: 658px
+	text-align: center
+	border-bottom: 1px solid #A6B4D0
 
+.feedback__txt_wrap
+	max-width: 715px
+	min-height: 430px
+	text-align: left
+	margin-right: 30px
+	overflow: hidden
+	p:first-child
+		padding-top: 0
+	p
+		font-family: "OpenSansRegular", sans-serif
+		color: #111111
+		padding: 10px 
+		font-weight: 700
+
+.feedback__img_wrap
+	margin: 37px auto
+	padding-left: 30px
+
+.feedback__name
+	display: block
+	font-family: "GostBStandard", sans-serif
+	font-size: 36px
+	color: #3B5998
+	text-transform: uppercase
+	z-index: 999
+	font-weight: 700
+
+.sl-feedback
+	.sl-slide:after
+			display: none
+			
+
+section.results
+	min-height: 747px
+	text-align: center
+	border-bottom: 1px solid #A6B4D0
+
+.result__content
+	margin-bottom: 63px
+
+.result__item
+	display: inline-block
+	width: 30%
+	min-height: 200px
+	margin-left: 3%
+	text-align: left
+
+.result__line
+	position: relative
+	margin-bottom: 20px
+	height: 2px
+	max-width: 990px
+	background: url(../img/result-bg.jpg) no-repeat
+
+.result__line::after,
+.result__line::before
+	content: ''
+	display: inline-block
+	position: absolute
+	top: -8px
+	width: 18px
+	height: 18px
+	border-radius: 50%
+	background: #8B9DC3
+
+.result__line::before
+	left: 0
+
+.result__line::after
+	right: 0
+
+.mb 
+	margin-bottom: 53px
+/*AUTHOR INFO SECTION */
+
+section.author
+	min-height: 830px
+	border-bottom: 1px solid #A6B4D0
+	background: url(../img/author-bg.jpg) no-repeat
+	text-align: center
+
+.author__content
+	.section_title
+		padding-bottom: 11px 
+
+.author__content_txt
+	width: 60%
+	text-align: left 
+	overflow: hidden
+
+.author__content_img
+	width: 40%
+
+.author_title
+	display: block
+	font-family: "GostBStandard", sans-serif
+	font-size: 36px
+	color: #FF4747
+	text-transform: uppercase
+	z-index: 999
+	margin-bottom: 91px
+
+.author__title_small
+	font-family: "GostBStandard", sans-serif
+	font-size: 26px
+	text-transform: uppercase
+	color: #3b5998
+
+.author__info__list
+	list-style-type: disc
+	margin-bottom: 10px
+	& li
+		font-family: "OpenSansRegular", sans-serif
+		font-size: 16px
+		color: #484849
+
+.author__img
+	max-width: 100%

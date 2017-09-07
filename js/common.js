@@ -60,4 +60,15 @@ $(document).ready(function(){
           }
       ]
   });
+	$('.sl-feedback').slick({
+      slidesToShow:1,
+      arrows:true,
+      infinite:false
+  });
+	  jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
 })
