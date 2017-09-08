@@ -608,6 +608,7 @@ section.registration {
   color: #484849; }
 
 .registr__form_item {
+  position: relative;
   width: 430px;
   max-width: 430px;
   margin: 5px;
@@ -618,7 +619,14 @@ section.registration {
   font-family: "OpenSansRegular", sans-serif;
   font-size: 16px;
   line-height: 16px;
-  color: #818283; }
+  color: #818283;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.registr__form_item:focus {
+  -webkit-box-shadow: inset 0 0 5px rgba(59, 89, 152, 0.3);
+          box-shadow: inset 0 0 5px rgba(59, 89, 152, 0.3); }
 
 .registr__form_title_mb {
   margin-bottom: 37px; }
