@@ -701,7 +701,8 @@ section.registration {
   transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1); }
 
 .button:hover {
-  border: 1px solid #3B5998; }
+  -webkit-box-shadow: inset 0 0 2px #fff;
+          box-shadow: inset 0 0 2px #fff; }
 
 .button:hover .mask {
   background: #fff;
