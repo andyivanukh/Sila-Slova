@@ -130,6 +130,13 @@
   	.author__info__list li{
 		font-size: 12px;
 	}
+	.footer__content div{
+		display: block;	
+	}
+	.footer__content div::after{
+		display: none;
+		
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -186,6 +193,18 @@
     }
     .smbn{
     	display: none;
+    }
+    .author_title_name{
+    	font-size: 30px;
+    }
+    .registr__form_item{
+    	width: 97%;
+    }
+    .registr__form_title{
+    	font-size: 16px;
+    }
+    .registr__form_footer{
+    	font-size: 13px;
     }
 }
 

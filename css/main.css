@@ -550,8 +550,7 @@ section.results {
 
 /*AUTHOR INFO SECTION */
 section.author {
-  min-height: 830px;
-  border-bottom: 1px solid #A6B4D0;
+  min-height: 730px;
   background: url(../img/author-bg.jpg) no-repeat;
   text-align: center; }
 
@@ -591,3 +590,81 @@ section.author {
 
 .author__img {
   max-width: 100%; }
+
+/* REGISTRATION SECTION*/
+section.registration {
+  min-height: 537px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #A6B4D0; }
+
+.registration__content .section_title {
+  font-weight: 700;
+  padding-bottom: 30px; }
+
+.registr__form_title {
+  display: block;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 18px;
+  color: #484849; }
+
+.registr__form_item {
+  width: 430px;
+  max-width: 430px;
+  margin: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  border: 1px solid #3B5998;
+  padding: 12px 17px;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #818283; }
+
+.registr__form_title_mb {
+  margin-bottom: 37px; }
+
+.registr__form_footer {
+  display: block;
+  margin-top: 17px;
+  margin-bottom: 33px;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 14px;
+  color: #484849; }
+  .registr__form_footer span {
+    color: #778CB8; }
+
+/* FOOTER */
+.footer {
+  min-height: 80px;
+  text-align: center;
+  background: #fff; }
+
+.footer__content {
+  padding: 26px 0; }
+  .footer__content div {
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3b5998; }
+  .footer__content i {
+    margin: 0 5px; }
+  .footer__content div::after {
+    position: absolute;
+    right: 0;
+    content: '';
+    display: inline-block;
+    height: 17px;
+    width: 1px;
+    background: #3b5998; }
+  .footer__content div:last-child::after {
+    display: none; }
+
+.adress a {
+  text-decoration: underline; }
+
+.adress a:hover {
+  text-decoration: none; }
